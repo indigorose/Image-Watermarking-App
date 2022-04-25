@@ -317,3 +317,11 @@ fabric.properties
 .idea/codestream.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm
+.idea/inspectionProfiles/Project_Default.xml
+.idea/Image-Watermarking-App.iml
+.gitignore
+.idea/modules.xml
+.idea/misc.xml
+.gitignore
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/vcs.xml
