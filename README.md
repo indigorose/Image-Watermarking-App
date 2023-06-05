@@ -7,11 +7,11 @@ within Python to add a text watermark to an image.
 
 ## Screenshots
 
-![Main App](images/Screenshot%202023-06-05%20at%2019.41.09.png)
+<img alt="Main App" height="350" src="images/Screenshot%202023-06-05%20at%2019.41.09.png" width="350"/>
 
-![Completed Image](images/Screenshot%202023-06-05%20at%2019.43.55.png)
- 
-![Gif Version](images/watermark_app.gif)
+<img alt="Completed Image" height="305" src="images/Screenshot%202023-06-05%20at%2019.43.55.png" width="350"/>
+
+<img alt="Gif Version" height="350" src="images/watermark_app.gif" width="350"/>
 
 ## Getting Started
  
