@@ -1,19 +1,29 @@
-![Image Watermarking App banner](IWA_banner.png)
+![Image Watermarking App banner](images/IWA_banner.png)
  
 # Image Watermarking App
  
-A simple app using the tkinter interface and Pillow, a fork of the Python Interface Library (aka PIL) within Python to add a text watermark to an image.
+An image watermarking app using the tkinter interface and Pillow, a fork of the Python Interface Library (aka PIL) 
+within Python to add a text watermark to an image.
+
+## Screenshots
+
+![Main App](images/Screenshot%202023-06-05%20at%2019.41.09.png)
+
+![Completed Image](images/Screenshot%202023-06-05%20at%2019.43.55.png)
  
+![Gif Version](images/watermark_app.gif)
+
 ## Getting Started
  
 Please clone the repository and run the `main.py` from the terminal to begin.
-For the ease of initial use, there are two picture files `beach.png` and `forest.py` to try.
+
+Load images from the source code on line 7, for the ease of initial use, there are two picture files `beach.png` and `forest.py` to try.
  
 Other files from your own directory can also be used as further examples.
  
-Please add your text in the watermark text box then use the “add watermark” button to add your chosen text to the image. 
- 
-By clicking “Save Image” the watermarked picture will be saved under the watermarked text in the directory and shown in the app. 
+Please add your text in the watermark text box then use the “add watermark” button to add your chosen text to the image and save it to your chosen destination on line 12.
+
+"Show Image" on the app will display the final product. 
  
 ## Pending Improvements
  

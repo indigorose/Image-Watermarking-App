@@ -3,25 +3,22 @@ from PIL import Image, ImageDraw, ImageFont
 
 # ------------- Python Code -------------- #
 
-
-# def upload_img():
-#     image_3 = PhotoImage(file="beach.png")
-#     canvas.itemconfig(image_container, image=image_3)
-
-
 def add_watermark():
-    image = Image.open("forest.png")
+    image = Image.open("images/forest.png")
     text_font = ImageFont.truetype("Arial.ttf", 12)
     get_text = watermark_entry.get()
     wm = ImageDraw.Draw(image)
     wm.text((100, 100), get_text, fill='grey', anchor='mb', font=text_font)
-    image.save(f"{get_text}.png")
+    global final_file
+    final_file = f"{get_text}.png"
+    image.save(final_file)
 
 
 def show_pic():
     global image_2
     get_text = watermark_entry.get()
-    image_2 = PhotoImage(file=f'{get_text}.png')
+    final_file = f"{get_text}.png"
+    image_2 = PhotoImage(file=final_file)
     canvas.itemconfig(image_container, image=image_2)
 
 
@@ -51,7 +48,7 @@ app_label.grid(column=1, row=0)
 
 # Image Canvas
 canvas = Canvas(window, width=600, height=400, bg=COLOR_3, highlightthickness=1, highlightbackground=COLOR_2)
-img1 = PhotoImage(file="forest.png")
+img1 = PhotoImage(file="images/forest.png")
 image_container = canvas.create_image(0, 0, anchor='nw', image=img1)
 canvas.grid(columnspan=3, row=3, padx=10, pady=10)
 
